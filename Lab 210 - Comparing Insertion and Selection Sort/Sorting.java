@@ -1,10 +1,6 @@
 
 /**
- * Implements insertion sort and selection sort for arrays and arraylists
  * 
- * Absent on day assigned
- * 
- * @Kara Herson
  * @2/8/2017
  */
 import java.util.ArrayList;
