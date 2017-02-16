@@ -1,33 +1,43 @@
-
 /**
- * Write a description of class Merger here.
+ * Implementation of Merge Sort
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @Kara Herson
+ * @2/16/2017
  */
 public class Merger
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Merger
-     */
-    public Merger()
+    public static void main()
     {
-        // initialise instance variables
-        x = 0;
+        Merger m = new Merger();
+        
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
+    
+    public int[] mergeSort (int[] array)
     {
-        // put your code here
-        return x + y;
+        if (array.length == 1)
+        {
+            return array;
+        }
+        
+        if (array.length == 2)
+        {
+            int temp = array[0];
+            if (array[1] < array[0])
+            {
+                array[0] = array[1];
+                array[1] = temp;
+            }
+            return array;
+        }
+        
+        
+    }
+    
+    public int[] merge (int[] array1, int[] array2)
+    {
+        int[] newArray = new int[array1.length + array2.length];
     }
 }
+
+
+
