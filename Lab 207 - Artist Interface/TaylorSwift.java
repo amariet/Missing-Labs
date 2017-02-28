@@ -1,5 +1,4 @@
 /**
- * @Kara Herson
  * @2/7/2017
  */
 public class TaylorSwift implements Artist
