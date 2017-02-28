@@ -1,8 +1,5 @@
 /**
  * Implementation of Merge Sort
- * 
- * @Kara Herson
- * @2/16/2017
  */
 public class Merger
 {
