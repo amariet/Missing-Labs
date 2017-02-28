@@ -1,7 +1,5 @@
 /**
  * Student class
- * 
- * @Kara Herson 
  * @11/9/16 
  * @2/2/17
  */
