@@ -1,6 +1,5 @@
 
-/**
- * @Kara Herson
+/*
  * @2/7/2017
  */
 public interface Artist
