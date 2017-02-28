@@ -1,8 +1,5 @@
 
 /**
- * Calculates the sum of the fibonacci sequence with iteration and with recursion. 
- * 
- * @Kara Herson
  * @2/15/2017
  */
 public class Fibonacci
